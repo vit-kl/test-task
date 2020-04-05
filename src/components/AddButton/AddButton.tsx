@@ -8,7 +8,6 @@ interface IAddButtonProps {
 }
 
 class AddButton extends Component {
-
     addString = () => {
         const { addString } = this.props as IAddButtonProps;
         addString(this.randomString());

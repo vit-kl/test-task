@@ -10,7 +10,7 @@ interface ITableProps {
 
 class Table extends Component {
     render() {
-        const { table } = { ...this.props } as ITableProps;
+        const { table } = this.props  as ITableProps;
         const filterValue = table.filterValue;
         const list = filterValue ? this.filterList(table.list, filterValue) : table.list.slice();
         

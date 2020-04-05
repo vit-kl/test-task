@@ -9,12 +9,12 @@ interface IAddButtonProps {
 }
 
 class SearchInput extends Component {
-
 	handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const value = event ? event.target.value : '';
         const { filterLines } = this.props as IAddButtonProps;
         filterLines(value);
     }
+    
 	render() {
 		return (
             <InputGroup
