@@ -1,0 +1,19 @@
+.wrapper-header {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8bd1ba;
+}
+
+.container-search {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    z-index: 11;
+}
